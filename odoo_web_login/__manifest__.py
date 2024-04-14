@@ -24,7 +24,7 @@
 {
     'name': 'Odoo Web Login Screen',
     'summary': 'The new configurable Odoo Web Login Screen',
-    'version': '16.0.1.0.1',
+    'version': '16.0.1.0.2',
     'category': 'Website',
     'summary': """
 The new configurable Odoo Web Login Screen
@@ -47,6 +47,9 @@ The new configurable Odoo Web Login Screen
     'assets': {
         'web.assets_frontend': [
             '/odoo_web_login/static/src/css/web_login_style.css',
+        ],
+        'web.assets_backend': [
+            '/odoo_web_login/static/src/css/backend.css',
         ],
     },
     'installable': True,

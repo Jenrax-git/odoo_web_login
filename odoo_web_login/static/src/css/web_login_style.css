@@ -124,10 +124,10 @@ a.btn-select:hover {
 	margin-bottom: 10px;
 }
 
-.o_database_list a {
+a {
 	color: #173E82;
 }
 
-.o_database_list a:hover {
+a:hover {
 	color: #0A1B3C;
 }
