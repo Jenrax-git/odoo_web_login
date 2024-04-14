@@ -70,7 +70,7 @@ body > #wrapwrap > main {
 	border-right: 0px;
 	border-bottom: 1px solid #CCC;
 	border-radius: 0px;
-	color: #de3907;
+	color: #143979;
 	font-size: 18px;
 	font-weight: 300;
 	transition: border-color 0.7s ease;
@@ -84,7 +84,7 @@ body > #wrapwrap > main {
 
 .o_database_list input:focus,
 .o_database_list select:focus {
-	border-bottom: 1px solid #e0953e;
+	border-bottom: 1px solid #173E82;
 	outline: 0 none;
 }
 
@@ -104,7 +104,7 @@ a.btn-select {
 
 .o_database_list .btn-primary:hover,
 a.btn-select:hover {
-	background-color: #f05a24;
+	background-color: #173E82;
 	color: #FFF;
 }
 
@@ -122,4 +122,12 @@ a.btn-select:hover {
 .oe_login_buttons {
 	margin-top: 30px;
 	margin-bottom: 10px;
+}
+
+.o_database_list a {
+	color: #173E82;
+}
+
+.o_database_list a:hover {
+	color: #0A1B3C;
 }
