@@ -24,7 +24,7 @@
 {
     'name': 'Odoo Web Login Screen',
     'summary': 'The new configurable Odoo Web Login Screen',
-    'version': '13.0.1.0',
+    'version': '16.0.1.0',
     'category': 'Website',
     'summary': """
 The new configurable Odoo Web Login Screen
@@ -33,14 +33,22 @@ The new configurable Odoo Web Login Screen
     'website': "https://www.xaoxao.vn",
     'license': 'AGPL-3',
     'depends': [
+        'base',
+        'web',
     ],
     'data': [
         'data/ir_config_parameter.xml',
-        'templates/website_templates.xml',
+        # 'templates/website_templates.xml',
         'templates/webclient_templates.xml',
     ],
     'qweb': [
+        
     ],
+    'assets': {
+        'web.assets_frontend': [
+            '/odoo_web_login/static/src/css/web_login_style.css',
+        ],
+    },
     'installable': True,
     'application': True,
     'images': ['static/description/banner.png'],

@@ -22,7 +22,7 @@
 ##############################################################################
 
 import ast
-from odoo.addons.web.controllers.main import Home
+from odoo.addons.web.controllers.home import Home, SIGN_UP_REQUEST_PARAMS
 import pytz
 import datetime
 import logging
@@ -33,6 +33,9 @@ from odoo import http
 from odoo.http import request
 _logger = logging.getLogger(__name__)
 
+odoo.addons.web.controllers.home.SIGN_UP_REQUEST_PARAMS.add('disable_footer')
+odoo.addons.web.controllers.home.SIGN_UP_REQUEST_PARAMS.add('disable_database_manager')
+odoo.addons.web.controllers.home.SIGN_UP_REQUEST_PARAMS.add('background_src')
 
 #----------------------------------------------------------
 # Odoo Web web Controllers
