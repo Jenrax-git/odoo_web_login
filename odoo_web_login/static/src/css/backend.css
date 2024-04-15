@@ -26,6 +26,9 @@ a:hover {
     color: #173E82;
 }
 
-.o_form_view .o_form_uri:hover, .o_form_view .o_form_uri:focus, .o_form_view .o_form_uri.focus {
+.o_form_view .o_form_uri >  span:first-child:hover {
+    color: #0A1B3C;
+}
+.o_form_view .o_form_uri > span:first-child:hover, .o_form_view .o_form_uri > span:first-child:focus, .o_form_view .o_form_uri > span:first-child.focus {
     color: #0A1B3C;
 }
