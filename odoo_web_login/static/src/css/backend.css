@@ -5,3 +5,27 @@ a {
 a:hover {
 	color: #0A1B3C;
 }
+
+.btn-secondary {
+	color: #173E82;
+}
+
+.btn-secondary:hover {
+	color: #0A1B3C;
+}
+
+.nav-link {
+    color: #173E82;
+}
+
+.nav-link:hover {
+	color: #0A1B3C;
+}
+
+.o_form_view .o_form_uri > span:first-child{
+    color: #173E82;
+}
+
+.o_form_view .o_form_uri:hover, .o_form_view .o_form_uri:focus, .o_form_view .o_form_uri.focus {
+    color: #0A1B3C;
+}
